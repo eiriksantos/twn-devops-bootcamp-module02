@@ -57,3 +57,15 @@ Display the contents of a file
 $ cat Readme.md
 ```
 
+Display info of your machine
+```
+$ uname -a
+$ cat /etc/os-release
+$ lscpu
+$ lsmem
+```
+
+Execute commands as superuser
+```
+$ sudo
+```
