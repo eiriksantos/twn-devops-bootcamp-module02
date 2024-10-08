@@ -41,3 +41,19 @@ Remove a directory
 $ rm -r test-project
 ```
 
+Rename a file
+```
+$ mv web-application java-app
+```
+
+Copy a file/folder
+```
+$ cp Readme.md Readme-test.md
+$ cp -r java-app my-project
+```
+
+Display the contents of a file
+```
+$ cat Readme.md
+```
+
