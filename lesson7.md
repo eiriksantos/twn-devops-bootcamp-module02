@@ -17,7 +17,26 @@ $ apt
 $ apt search PACKAGE_NAME
 
 # Remove software package
-# apt remove PACKAGE_NAME
+$ apt remove PACKAGE_NAME
 
-#
+# Refresh the cache
+$ apt upgrade
+
+# Location of repositories
+$ cat /etc/apt/sources.list
+
+# Add repositories
+# PPA = Personal Package Archive
+# 
+$ add-apt-repository REPOSITORY
+```
+
+**Ubuntu Software Center**
+
+**Snap Package Manager**
+```
+$ snap
+
+# 
+$ snap install --classic code
 ```
