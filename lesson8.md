@@ -25,6 +25,19 @@ $ vim FILENAME.txt
   -  You cant edit the text
   -  Whatever you type is interpreted as a command
   -  Navigate, search, delete, undo, etc
+  -  To go back to the command mode from insert mode, press "Esc"
+  -  Some of the commands:
+    - :w
+    - :wq
+    - :q!
+    - dd
+    - d10d
+    - u
+    - A / 0
+    - $
+    - 12G
+    - /pattern n N
 - Insert Mode:
   - Edit mode
   - Allows you to enter text
+  - To enter insert mode from command mode, press "i"
